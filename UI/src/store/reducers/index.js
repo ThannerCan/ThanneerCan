@@ -1,6 +1,7 @@
 import { combineReducers } from "redux";
-import testReducer from "./TestReducer";
+import CustomerInventoryReducer from "./CustomerInventoryReducer";
+
 
 export default   combineReducers({
-    testRedux: testReducer
+  customerInventory: CustomerInventoryReducer
   });
